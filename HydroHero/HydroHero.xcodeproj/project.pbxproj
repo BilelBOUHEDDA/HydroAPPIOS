@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA991DB829A5F8DF008D08F2 /* HydroHeroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA991DB729A5F8DF008D08F2 /* HydroHeroApp.swift */; };
+		AA991DBA29A5F8DF008D08F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA991DB929A5F8DF008D08F2 /* ContentView.swift */; };
+		AA991DBF29A5F8E0008D08F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA991DBE29A5F8E0008D08F2 /* Preview Assets.xcassets */; };
+		AA991DC729A5F930008D08F2 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA991DC629A5F930008D08F2 /* Todo.swift */; };
+		AA991DC929A5FE03008D08F2 /* Accueil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA991DC829A5FE03008D08F2 /* Accueil.swift */; };
+		AA991DCC29A600EA008D08F2 /* Parametres.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA991DCB29A600EA008D08F2 /* Parametres.swift */; };
+		DCB0BAC029CDB0E6009C6969 /* Suivi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0BABF29CDB0E6009C6969 /* Suivi.swift */; };
+		DCB0BAC229CDB1F1009C6969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB0BAC129CDB1F1009C6969 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA991DB429A5F8DF008D08F2 /* HydroHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydroHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA991DB729A5F8DF008D08F2 /* HydroHeroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroHeroApp.swift; sourceTree = "<group>"; };
+		AA991DB929A5F8DF008D08F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA991DBE29A5F8E0008D08F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA991DC629A5F930008D08F2 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		AA991DC829A5FE03008D08F2 /* Accueil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accueil.swift; sourceTree = "<group>"; };
+		AA991DCB29A600EA008D08F2 /* Parametres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parametres.swift; sourceTree = "<group>"; };
+		DCB0BABF29CDB0E6009C6969 /* Suivi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suivi.swift; sourceTree = "<group>"; };
+		DCB0BAC129CDB1F1009C6969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA991DB129A5F8DF008D08F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA991DAB29A5F8DF008D08F2 = {
+			isa = PBXGroup;
+			children = (
+				AA991DB629A5F8DF008D08F2 /* TodoA3-A4 */,
+				AA991DB529A5F8DF008D08F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA991DB529A5F8DF008D08F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA991DB429A5F8DF008D08F2 /* HydroHero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA991DB629A5F8DF008D08F2 /* TodoA3-A4 */ = {
+			isa = PBXGroup;
+			children = (
+				AA991DC529A5F907008D08F2 /* Model */,
+				AA991DCA29A5FE24008D08F2 /* View */,
+				AA991DB729A5F8DF008D08F2 /* HydroHeroApp.swift */,
+				DCB0BAC129CDB1F1009C6969 /* Assets.xcassets */,
+				AA991DBD29A5F8E0008D08F2 /* Preview Content */,
+			);
+			path = "TodoA3-A4";
+			sourceTree = "<group>";
+		};
+		AA991DBD29A5F8E0008D08F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA991DBE29A5F8E0008D08F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA991DC529A5F907008D08F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA991DC629A5F930008D08F2 /* Todo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA991DCA29A5FE24008D08F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA991DB929A5F8DF008D08F2 /* ContentView.swift */,
+				AA991DC829A5FE03008D08F2 /* Accueil.swift */,
+				DCB0BABF29CDB0E6009C6969 /* Suivi.swift */,
+				AA991DCB29A600EA008D08F2 /* Parametres.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA991DB329A5F8DF008D08F2 /* HydroHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA991DC229A5F8E0008D08F2 /* Build configuration list for PBXNativeTarget "HydroHero" */;
+			buildPhases = (
+				AA991DB029A5F8DF008D08F2 /* Sources */,
+				AA991DB129A5F8DF008D08F2 /* Frameworks */,
+				AA991DB229A5F8DF008D08F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydroHero;
+			productName = "TodoA3-A4";
+			productReference = AA991DB429A5F8DF008D08F2 /* HydroHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA991DAC29A5F8DF008D08F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AA991DB329A5F8DF008D08F2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = AA991DAF29A5F8DF008D08F2 /* Build configuration list for PBXProject "HydroHero" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA991DAB29A5F8DF008D08F2;
+			productRefGroup = AA991DB529A5F8DF008D08F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA991DB329A5F8DF008D08F2 /* HydroHero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA991DB229A5F8DF008D08F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB0BAC229CDB1F1009C6969 /* Assets.xcassets in Resources */,
+				AA991DBF29A5F8E0008D08F2 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA991DB029A5F8DF008D08F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB0BAC029CDB0E6009C6969 /* Suivi.swift in Sources */,
+				AA991DBA29A5F8DF008D08F2 /* ContentView.swift in Sources */,
+				AA991DC729A5F930008D08F2 /* Todo.swift in Sources */,
+				AA991DB829A5F8DF008D08F2 /* HydroHeroApp.swift in Sources */,
+				AA991DC929A5FE03008D08F2 /* Accueil.swift in Sources */,
+				AA991DCC29A600EA008D08F2 /* Parametres.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA991DC029A5F8E0008D08F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA991DC129A5F8E0008D08F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA991DC329A5F8E0008D08F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TodoA3-A4/Preview Content\"";
+				DEVELOPMENT_TEAM = BCB2U5N8E6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.laiymani.TodoA3-A4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA991DC429A5F8E0008D08F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TodoA3-A4/Preview Content\"";
+				DEVELOPMENT_TEAM = BCB2U5N8E6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.laiymani.TodoA3-A4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA991DAF29A5F8DF008D08F2 /* Build configuration list for PBXProject "HydroHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA991DC029A5F8E0008D08F2 /* Debug */,
+				AA991DC129A5F8E0008D08F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA991DC229A5F8E0008D08F2 /* Build configuration list for PBXNativeTarget "HydroHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA991DC329A5F8E0008D08F2 /* Debug */,
+				AA991DC429A5F8E0008D08F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA991DAC29A5F8DF008D08F2 /* Project object */;
+}
